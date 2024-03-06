@@ -1,0 +1,33 @@
+{
+  "name": "adaffab7-f84e-4b99-a6e6-6f244db699c0",
+  "displayName": "Balance Info",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "This page should inform you about your account balance information. Is there anything else I can help you with?" ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "before_text": "Before we continue I need to verify your identity.",
+        "verify": true
+      },
+      "languageCode": "en"
+    } ],
+    "webhook": "ROOT",
+    "tag": "account-balance:info"
+  },
+  "transitionRoutes": [ {
+    "intent": "no",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Session",
+    "name": "7c1db30a-3f25-47ee-8900-7b948bb05d7d"
+  } ],
+  "description": "TEST DESCRIPTION",
+  "agentTransitionRouteGroups": [ "Other Questions" ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "b54193a4-2ee4-45aa-89e8-d58199bf8b89",
+  "displayName": "Followup",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "verify": true
+      },
+      "languageCode": "en"
+    } ],
+    "webhook": "FF",
+    "tag": "verification:followup"
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "1d05bf56-1dd3-4c8e-bef8-d1fc1cc5fe80"
+  } ]
+}

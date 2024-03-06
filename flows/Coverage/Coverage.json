@@ -1,0 +1,46 @@
+{
+  "name": "5c16645b-ef9a-4314-930a-6a8775e9b622",
+  "displayName": "Coverage",
+  "transitionRoutes": [ {
+    "condition": "$session.params.verified != true",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "ID\u0026V",
+    "name": "5695f4ad-9c77-4d9d-98b9-0b4838f48935"
+  }, {
+    "condition": "$session.params.verified = true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Coverage Info",
+    "name": "cf11ca2c-10ec-4b8b-9bfc-7549ce36c2c9"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "8a56c8cc-dee1-4f48-a92c-eaad627ceee6"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "1d4a8a50-3209-489c-a7c1-0c79dd920a50"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001
+  }
+}

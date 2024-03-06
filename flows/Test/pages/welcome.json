@@ -1,0 +1,23 @@
+{
+  "name": "0dc5ebf2-1bcc-460c-a1c3-907b946969c4",
+  "displayName": "welcome",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Hi, I'm welcome page !" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Session",
+    "name": "875dfaa2-7e09-44cd-9d2e-3290c68e856d"
+  } ]
+}

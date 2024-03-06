@@ -1,0 +1,55 @@
+{
+  "name": "c928bc3d-4e33-41f7-ab96-9108ef9e95eb",
+  "displayName": "Current Customer",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "verify": true
+      },
+      "languageCode": "en"
+    } ],
+    "webhook": "FF",
+    "tag": "verification:current"
+  },
+  "transitionRoutes": [ {
+    "intent": "yes",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Followup",
+    "name": "12c7ebad-4650-462d-9d94-fa5755281833"
+  }, {
+    "intent": "no",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "verified",
+        "value": false
+      } ]
+    },
+    "targetPage": "Failed",
+    "name": "0635235e-5d1b-4238-b907-0d680e2377ab"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "Current Page",
+    "event": "sys.no-match-1",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "please say it again" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "9119a1ac-877a-453e-b3fd-1fa20b014c95"
+  }, {
+    "targetPage": "Failed",
+    "event": "sys.no-match-2",
+    "triggerFulfillment": {
+    
+    },
+    "name": "366ce10b-b9a0-4024-a645-03c1c4068e31"
+  } ]
+}

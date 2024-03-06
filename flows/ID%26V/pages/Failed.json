@@ -1,0 +1,15 @@
+{
+  "name": "078b5231-8df8-4c7e-98b0-4cfa9224f587",
+  "displayName": "Failed",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "\u003ccustomer is not verified\u003e" ]
+      },
+      "languageCode": "en"
+    } ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "5708c60b-1a15-4194-bb3d-484bd638ad06",
+  "displayName": "Other Questions",
+  "transitionRoutes": [ {
+    "intent": "coverage.info",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Coverage",
+    "name": "d77fb24c-5d16-4523-95c2-662c1c37ebfe"
+  }, {
+    "intent": "account-balance.info",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Account Balance",
+    "name": "ced49dc1-e0dc-474f-8555-b1e77d0f9d53"
+  } ]
+}

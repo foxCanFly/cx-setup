@@ -1,0 +1,10 @@
+{
+  "name": "4d36af6c-95b1-4ae4-8907-839e4b31048f",
+  "displayName": "ROOT",
+  "genericWebService": {
+    "uri": "https://four-hands-arrive.loca.lt"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

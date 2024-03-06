@@ -1,0 +1,10 @@
+{
+  "name": "80944722-8da3-4210-a95a-0ee01ca5b1f2",
+  "displayName": "FF-2",
+  "genericWebService": {
+    "uri": "https://abc.com"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

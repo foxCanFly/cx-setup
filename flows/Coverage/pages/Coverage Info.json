@@ -1,0 +1,24 @@
+{
+  "name": "ebde6693-4f93-4521-8c17-a53703816d7b",
+  "displayName": "Coverage Info",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "This page should inform you about your coverage information. Is there anything else I can help you with?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "no",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Session",
+    "name": "67fee124-6905-4610-b137-f959002a104e"
+  } ],
+  "agentTransitionRouteGroups": [ "Other Questions" ]
+}

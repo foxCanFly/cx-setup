@@ -1,0 +1,10 @@
+{
+  "name": "7c114af9-4076-4461-8a1b-33383286e920",
+  "displayName": "FF",
+  "genericWebService": {
+    "uri": "https://98b2-37-214-50-94.ngrok-free.app/ff"
+  },
+  "timeout": {
+    "seconds": 20
+  }
+}

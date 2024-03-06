@@ -1,0 +1,25 @@
+{
+  "name": "41246075-28ae-4343-91f1-c1fb7d88c5c6",
+  "displayName": "Init",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "verify": true
+      },
+      "languageCode": "en"
+    } ],
+    "webhook": "FF",
+    "tag": "verification:init"
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.stage = \"CURRENT\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Current Customer",
+    "name": "e352ecae-19d9-407c-937a-40c7876a0b9f"
+  } ]
+}
